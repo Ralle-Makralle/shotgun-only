@@ -1,0 +1,30 @@
+{
+    "Name": "RalleMakralle.Shotgun-Only",
+    "Description": "Shotgun only mod for Shotgun only servers",
+    "Version": "0.1.0",
+    "LoadPriority": 0,
+    "ConVars": [],
+    "Scripts": [
+        {
+            "Path": "gamemodes/_gamemode_simplerandomiser.nut",
+            "RunOn": "SERVER && MP"
+        },
+        {
+            "Path": "gamemodes/cl_gamemode_simplerandomiser.nut",
+            "RunOn": "CLIENT && MP"
+        },
+        {
+            "Path": "sh_gamemode_simplerandomiser.nut",
+            "RunOn": "MP",
+            "ClientCallback": {
+                "Before": "simplerandomiser_init"
+            },
+            "ServerCallback": {
+                "Before": "simplerandomiser_init"
+            }
+        }
+    ],
+    "Localisation": [
+        "resource/simplerandomiser_localisation_%language%.txt"
+    ]
+ }

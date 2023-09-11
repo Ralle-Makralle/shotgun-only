@@ -1,0 +1,17 @@
+"lang"
+{
+    "Language" "english"
+    "Tokens"
+    {
+            "PL_rand" "Simple Randomiser" // displays in the lobby settings
+            "rand_enableannouncements" "Toggle announcements" // describe the togglable setting
+            "rand_announcementduration" "Announcement duration" // describe the numerical setting
+            "PL_rand_lobby" "Simple Randomiser Lobby" // displays in lobby
+            "PL_rand_desc" "Your weapons are randomised! Fight and win!" // displays in the description of the gamemode in the lobby
+            "PL_rand_hint" "Your weapons are randomised! Fight and win!" // displays in the scoreboard of the gamemode ingame
+            "PL_rand_abbr" "RAND"
+            "GAMEMODE_TBAG" "Simple Randomiser" // displays in the loading screen
+            "RAND_RANDOMIZED" "Weapons Randomized" // displays in the announcement text
+            "RAND_RANDOMIZED_DESC" "Fight and win!" // displays below the announcement text, as a description
+    }
+}
